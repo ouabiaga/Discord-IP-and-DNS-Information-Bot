@@ -21,7 +21,7 @@ A simple Discord bot built with Python and `discord.py`. The bot provides a basi
 
    ```bash
    git clone <repo-url>
-   cd kodoğrenme
+   cd https://github.com/ouabiaga/Discord-IP-and-DNS-Information-Bot
    ```
 
 2. Install the required packages:
