@@ -20,14 +20,16 @@ A simple Discord bot built with Python and `discord.py`. The bot provides a basi
 1. Clone the project and move into its directory:
 
    ```bash
-   git clone <repo-url>
-   cd https://github.com/ouabiaga/Discord-IP-and-DNS-Information-Bot
+   git clone https://github.com/ouabiaga/Discord-IP-and-DNS-Information-Bot
+   cd Discord-IP-and-DNS-Information-Bot
+   python bot.py
    ```
 
 2. Install the required packages:
 
    ```bash
    pip install discord.py requests
+   pip install discord
    ```
 
 3. Create an application in the [Discord Developer Portal](https://discord.com/developers/applications), add a bot from the **Bot** section, and copy its token.
