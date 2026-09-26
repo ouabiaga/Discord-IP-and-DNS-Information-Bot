@@ -24,7 +24,7 @@ class MyClient(discord.Client):
         if message.content.startswith('!dns'):
             try:
                 dns=message.content.split(' ')[1]
-                response= requests.get(f"http://edns.ip-api.com/json{dns}")
+                response= requests.get(f"http://edns.ip-api.com/json/{dns}")
                 data=response.json()
                 dns_ip = data['dns']['ip']
                 dns_geo = data['dns']['geo']
